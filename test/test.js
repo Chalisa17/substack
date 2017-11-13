@@ -21,7 +21,7 @@ describe('Test Suite 1', function() {
         });
 
         it('Array property check', function() {
-            user.should.have.property('name', 'tjh');
+            user.should.have.property('name', 'tj');
             user.should.have.property('pets').with.lengthOf(4);
         });
 
